@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mobilehousecard"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:20.0.2] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\81cd63d8da2e1cab8e591d71f195c6f4\jetified-firebase-database-20.0.2\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:20.0.2] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\81cd63d8da2e1cab8e591d71f195c6f4\jetified-firebase-database-20.0.2\AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:20.0.2] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\81cd63d8da2e1cab8e591d71f195c6f4\jetified-firebase-database-20.0.2\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:20.0.2] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\81cd63d8da2e1cab8e591d71f195c6f4\jetified-firebase-database-20.0.2\AndroidManifest.xml:26:22-64
+15
+16    <application
+16-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:5:5-24:19
+17        android:allowBackup="true"
+17-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:6:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.5.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\9540cdb33ad6c11de87e76db47fcb583\core-1.5.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:7:9-43
+21        android:label="@string/app_name"
+21-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:8:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:9:9-54
+23        android:supportsRtl="true"
+23-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:10:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.MobileHouseCard" >
+25-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:11:9-53
+26        <activity android:name="com.example.mobilehousecard.Checkout" />
+26-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:12:9-45
+26-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:12:19-43
+27        <activity android:name="com.example.mobilehousecard.PayCards" />
+27-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:13:9-45
+27-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:13:19-43
+28        <activity android:name="com.example.mobilehousecard.PaymentMethod" />
+28-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:14:9-50
+28-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:14:19-48
+29        <activity android:name="com.example.mobilehousecard.View_Additems" />
+29-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:15:9-50
+29-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:15:19-48
+30        <activity android:name="com.example.mobilehousecard.View_item" />
+30-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:16:9-47
+30-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:16:19-44
+31        <activity android:name="com.example.mobilehousecard.MainActivity" >
+31-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:17:9-23:20
+31-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:17:19-47
+32            <intent-filter>
+32-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:18:13-22:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:19:17-69
+33-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:19:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:21:17-77
+35-->D:\MAD\MobileHouseCard\app\src\main\AndroidManifest.xml:21:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <service
+39-->[com.google.firebase:firebase-database:20.0.2] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\81cd63d8da2e1cab8e591d71f195c6f4\jetified-firebase-database-20.0.2\AndroidManifest.xml:29:9-35:19
+40            android:name="com.google.firebase.components.ComponentDiscoveryService"
+40-->[com.google.firebase:firebase-database:20.0.2] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\81cd63d8da2e1cab8e591d71f195c6f4\jetified-firebase-database-20.0.2\AndroidManifest.xml:30:13-84
+41            android:directBootAware="true"
+41-->[com.google.firebase:firebase-common:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\ae2528762b2de133781bc8d4c04da789\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+42            android:exported="false" >
+42-->[com.google.firebase:firebase-database:20.0.2] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\81cd63d8da2e1cab8e591d71f195c6f4\jetified-firebase-database-20.0.2\AndroidManifest.xml:31:13-37
+43            <meta-data
+43-->[com.google.firebase:firebase-database:20.0.2] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\81cd63d8da2e1cab8e591d71f195c6f4\jetified-firebase-database-20.0.2\AndroidManifest.xml:32:13-34:85
+44                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+44-->[com.google.firebase:firebase-database:20.0.2] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\81cd63d8da2e1cab8e591d71f195c6f4\jetified-firebase-database-20.0.2\AndroidManifest.xml:33:17-109
+45                android:value="com.google.firebase.components.ComponentRegistrar" />
+45-->[com.google.firebase:firebase-database:20.0.2] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\81cd63d8da2e1cab8e591d71f195c6f4\jetified-firebase-database-20.0.2\AndroidManifest.xml:34:17-82
+46        </service>
+47
+48        <provider
+48-->[com.squareup.picasso:picasso:2.71828] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\945f0bb97f1d68be5fee3381dcb34869\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+49            android:name="com.squareup.picasso.PicassoProvider"
+49-->[com.squareup.picasso:picasso:2.71828] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\945f0bb97f1d68be5fee3381dcb34869\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+50            android:authorities="com.example.mobilehousecard.com.squareup.picasso"
+50-->[com.squareup.picasso:picasso:2.71828] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\945f0bb97f1d68be5fee3381dcb34869\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+51            android:exported="false" />
+51-->[com.squareup.picasso:picasso:2.71828] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\945f0bb97f1d68be5fee3381dcb34869\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+52        <provider
+52-->[com.google.firebase:firebase-common:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\ae2528762b2de133781bc8d4c04da789\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+53            android:name="com.google.firebase.provider.FirebaseInitProvider"
+53-->[com.google.firebase:firebase-common:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\ae2528762b2de133781bc8d4c04da789\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+54            android:authorities="com.example.mobilehousecard.firebaseinitprovider"
+54-->[com.google.firebase:firebase-common:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\ae2528762b2de133781bc8d4c04da789\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+55            android:directBootAware="true"
+55-->[com.google.firebase:firebase-common:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\ae2528762b2de133781bc8d4c04da789\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+56            android:exported="false"
+56-->[com.google.firebase:firebase-common:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\ae2528762b2de133781bc8d4c04da789\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+57            android:initOrder="100" />
+57-->[com.google.firebase:firebase-common:20.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\ae2528762b2de133781bc8d4c04da789\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+58
+59        <activity
+59-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\9b8abfba9518d34902195e669e56f58f\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+60            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+60-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\9b8abfba9518d34902195e669e56f58f\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+61            android:exported="false"
+61-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\9b8abfba9518d34902195e669e56f58f\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+62            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+62-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\9b8abfba9518d34902195e669e56f58f\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+63
+64        <meta-data
+64-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\13574a364fe4bfb6737ba5029a1dd6e9\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+65            android:name="com.google.android.gms.version"
+65-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\13574a364fe4bfb6737ba5029a1dd6e9\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+66            android:value="@integer/google_play_services_version" />
+66-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\13574a364fe4bfb6737ba5029a1dd6e9\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+67    </application>
+68
+69</manifest>

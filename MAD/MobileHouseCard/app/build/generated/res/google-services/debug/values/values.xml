@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1055860095995-16ih8dd1q8nqoc4dbnf89ilrrvpklbm7.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1055860095995</string>
+    <string name="google_api_key" translatable="false">AIzaSyC8YoaulTeRibQ5QKNbw-Lqf3LQghDhnDE</string>
+    <string name="google_app_id" translatable="false">1:1055860095995:android:4792ea37b27d317033295e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC8YoaulTeRibQ5QKNbw-Lqf3LQghDhnDE</string>
+    <string name="google_storage_bucket" translatable="false">mobilehousecard-ed3a4.appspot.com</string>
+    <string name="project_id" translatable="false">mobilehousecard-ed3a4</string>
+</resources>

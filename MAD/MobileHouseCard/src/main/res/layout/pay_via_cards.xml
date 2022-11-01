@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic7"
+    tools:context=".PayCards">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="296dp">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="287dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.095"
+            app:srcCompat="@drawable/pic10" />
+
+        <EditText
+            android:id="@+id/add_cardnum"
+            android:layout_width="276dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:hint="@string/add_cardnum"
+            android:inputType="textPersonName"
+            android:textColor="#6E6D6D"
+            android:textColorHint="#474444"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="287dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/add_monyear"
+            android:layout_width="276dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:hint="@string/add_monyear"
+            android:inputType="textPersonName"
+            android:textColor="#6E6D6D"
+            android:textColorHint="#474444"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="342dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/add_cvv"
+            android:layout_width="276dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:hint="@string/add_cvv"
+            android:inputType="textPersonName"
+            android:textColor="#6E6D6D"
+            android:textColorHint="#474444"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="398dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/add_name"
+            android:layout_width="276dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:hint="@string/add_name"
+            android:inputType="textPersonName"
+            android:textColor="#6E6D6D"
+            android:textColorHint="#474444"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="456dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/bt_paynow"
+            android:layout_width="155dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:background="#009688"
+            android:text="@string/bt_paynow"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="526dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/bt_payments"
+            android:layout_width="155dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="80dp"
+            android:background="#009688"
+            android:onClick="PaymentMethods"
+            android:text="@string/bt_payments"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
